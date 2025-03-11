@@ -38,6 +38,7 @@ elif "🌡️ Temperature" in category:
         else:
             # Conversion logic for temperature
             if input_unit == "Celsius" and output_unit == "Fahrenheit":
+          
                 result = (value * 9/5) + 32
             elif input_unit == "Celsius" and output_unit == "Kelvin":
                 result = value + 273.15
